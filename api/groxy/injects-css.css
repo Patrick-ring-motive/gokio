@@ -1,0 +1,22 @@
+
+
+html{
+  filter:hue-rotate(-45deg);
+}
+
+img,
+.Playground,
+button:not(.Playground button),
+[role="button"]:not(.Playground [role="button"]),
+.WhyGo-reason,
+.WhyGo-reasonPackage,
+.GettingStartedGo-primaryCta
+{
+  filter: drop-shadow(0 0 0.15rem black);
+}
+
+
+html[user-agent*="afari"] .go-Select{
+  background: unset !important;
+  appearance: auto !important;
+}
