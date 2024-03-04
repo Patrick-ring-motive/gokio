@@ -31,6 +31,11 @@ func INT(int){}
 
 
 
+type Func[A func()Z|func(B)Z|func(B,C)Z|func(B,C,D)Z,B any,C any,D any,Z any] struct{
+  Function A
+  Output Z
+}
+
 
 
 type Promise[T any] struct {
